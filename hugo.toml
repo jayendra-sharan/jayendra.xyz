@@ -1,4 +1,4 @@
-baseURL = 'https://jayendra.xyz'
+baseURL = "https://your-username.github.io/your-repo-name/"
 languageCode = 'en-us'
 title = 'Jayendra Sharan'
 theme = 'typo'
