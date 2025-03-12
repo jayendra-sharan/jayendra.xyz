@@ -6,7 +6,7 @@ theme = 'typo'
 publishDir = "docs"
 
 [params]
-  customCSS = ["css/custom.css"]
+  customCSS = ["assets/css/custom.css"]
 
   [[params.menu]]
     name = "Home"

@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jayendra Sharan - Personal Website | Explorer, Photographer, Front-End Engineer on Jayendra Sharan</title><link>https://jayendra.xyz/</link><description>Recent content in Jayendra Sharan - Personal Website | Explorer, Photographer, Front-End Engineer on Jayendra Sharan</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jayendra.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>About Jayendra Sharan - Who I Am &amp; What I Do</title><link>https://jayendra.xyz/about/</link><pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate><guid>https://jayendra.xyz/about/</guid><description>&lt;h1 class="heading" id="about-me">
- About me
- &lt;a class="anchor" href="#about-me">#&lt;/a>
-&lt;/h1>
-&lt;hr>
-&lt;p>Hi, I’m Jay, short for Jayendra. I love experimenting with productivity—finding better ways to work, think, and organize life. I’m deep into &lt;em>Getting Things Done (GTD)&lt;/em> and always testing tools like &lt;em>Notion&lt;/em> for structure, &lt;em>Freedom&lt;/em> for focus, and &lt;em>NetNewsWire&lt;/em> to stay updated. But no matter how digital things get, I always carry a notebook. Some thoughts just need ink.&lt;/p>
-&lt;p>Photography is my way of slowing down. I shoot only in black and white, drawn to the simplicity and depth it brings to street photography. There’s something raw and timeless about it—no distractions, just moments as they are.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jayendra Sharan - Personal Website | Explorer, Photographer, Front-End Engineer on Jayendra Sharan</title>
+    <link>http://localhost:1313/jayendra.xyz/</link>
+    <description>Recent content in Jayendra Sharan - Personal Website | Explorer, Photographer, Front-End Engineer on Jayendra Sharan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/jayendra.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Jayendra Sharan - Who I Am &amp; What I Do</title>
+      <link>http://localhost:1313/jayendra.xyz/about/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jayendra.xyz/about/</guid>
+      <description>&lt;h1 class=&#34;heading&#34; id=&#34;about-me&#34;&gt;&#xA;  About me&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#about-me&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Hi, I’m Jay, short for Jayendra. I love experimenting with productivity—finding better ways to work, think, and organize life. I’m deep into &lt;em&gt;Getting Things Done (GTD)&lt;/em&gt; and always testing tools like &lt;em&gt;Notion&lt;/em&gt; for structure, &lt;em&gt;Freedom&lt;/em&gt; for focus, and &lt;em&gt;NetNewsWire&lt;/em&gt; to stay updated. But no matter how digital things get, I always carry a notebook. Some thoughts just need ink.&lt;/p&gt;&#xA;&lt;p&gt;Photography is my way of slowing down. I shoot only in black and white, drawn to the simplicity and depth it brings to street photography. There’s something raw and timeless about it—no distractions, just moments as they are.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
