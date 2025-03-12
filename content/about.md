@@ -14,4 +14,4 @@ Music is a constant companion. My playlist moves from *Bob Marley* to *Eminem*, 
 
 This site is my little corner of the internet, where I share thoughts on productivity, creativity, and the small details that make life interesting.  
 
-[Home](/home/)
+[Home](/)
