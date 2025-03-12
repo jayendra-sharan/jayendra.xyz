@@ -1,0 +1,15 @@
+baseURL = 'https://jayendra.xyz'
+languageCode = 'en-us'
+title = 'Jayendra Sharan'
+theme = 'typo'
+
+[params]
+  customCSS = ["css/custom.css"]
+
+  [[params.menu]]
+    name = "Home"
+    url = "/"
+
+  [[params.menu]]
+    name = "About"
+    url = "/about/"
