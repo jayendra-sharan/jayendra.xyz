@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jayendra Sharan - Personal Website | Explorer, Photographer, Front-End Engineer on jayendra sharan</title><link>https://jayendra.xyz/</link><description>Recent content in Jayendra Sharan - Personal Website | Explorer, Photographer, Front-End Engineer on jayendra sharan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://jayendra.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>About Jayendra Sharan - Who I Am &amp; What I Do</title><link>https://jayendra.xyz/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jayendra.xyz/about/</guid><description>&lt;h1 class="heading" id="about-me">
+ About Me
+ &lt;a class="anchor" href="#about-me">#&lt;/a>
+&lt;/h1>
+&lt;hr>
+&lt;p>Hi, I’m Jay! I love experimenting with productivity—finding better ways to work, think, and organize life. I’m deep into &lt;em>Getting Things Done (GTD)&lt;/em> and always testing tools like &lt;em>Notion&lt;/em> for structure, &lt;em>Freedom&lt;/em> for focus, and &lt;em>NetNewsWire&lt;/em> to stay updated. But no matter how digital things get, I always carry a notebook. Some thoughts just need ink.&lt;/p>
+&lt;p>Photography is my way of slowing down. I shoot only in black and white, drawn to the simplicity and depth it brings to street photography. There’s something raw and timeless about it—no distractions, just moments as they are.&lt;/p></description></item><item><title>Contact</title><link>https://jayendra.xyz/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jayendra.xyz/contact/</guid><description>&lt;h1 class="heading" id="say-hello-">
+ Say Hello 👋
+ &lt;a class="anchor" href="#say-hello-">#&lt;/a>
+&lt;/h1>
+&lt;hr>
+&lt;form id="contact-form">
+ &lt;label for="name">Name:&lt;/label>
+ &lt;input type="text" id="name" name="name" required>
+&lt;p>&lt;label for="email">Your Email:&lt;/label>
+&lt;input type="email" id="email" name="email" required>&lt;/p>
+&lt;p>&lt;label for="subject">Subject:&lt;/label>
+&lt;input type="text" id="subject" name="subject" required>&lt;/p>
+&lt;p>&lt;label for="message">Your Message:&lt;/label>&lt;/p>
+&lt;textarea id="message" name="message" rows="5" required>&lt;/textarea>
+&lt;p>&lt;button id='submit-button' type="submit">Send Message&lt;/button>&lt;/p>
+&lt;/form>
+&lt;p id="response-message">&lt;/p>
+&lt;script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">&lt;/script>
+&lt;script>
+ (function() {
+ var submitButton = document.getElementById('submit-button');
+ emailjs.init({
+ publicKey: 'dzoZYfbpAIQVxcSAU'
+ });
+ document.getElementById("contact-form").addEventListener("submit", function(event) {
+ event.preventDefault();
+ submitButton.disabled = true;
+ emailjs.send("service_iflzea9", "template_bbzk4gc", {
+ name: document.getElementById("name").value,
+ email: document.getElementById("email").value,
+ subject: document.getElementById("subject").value,
+ message: document.getElementById("message").value
+ })
+ .then(function(response) {
+ document.getElementById("response-message").innerHTML = "Message sent successfully!";
+ document.getElementById("contact-form").reset();
+ submitButton.disabled = false;
+ }, function(error) {
+ submitButton.disabled = false;
+ document.getElementById("response-message").innerHTML = "Failed to send message. Try again.";
+ });
+ });
+ })();
+&lt;/script></description></item></channel></rss>

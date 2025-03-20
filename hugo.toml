@@ -1,0 +1,26 @@
+baseURL = 'https://jayendra.xyz'
+languageCode = 'en-us'
+title = "jayendra sharan"
+theme = "typo"
+publishDir = "docs"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  hideBackToTop = true
+  hidePagination = true
+
+  [[params.menu]]
+    name = "home"
+    url = "/"
+
+  [[params.menu]]
+    name = "about"
+    url = "/about/"
+
+  [[params.menu]]
+    name = "contact"
+    url = "/contact/"
